@@ -1,8 +1,9 @@
 from flask import Flask
 
+# Trigger GitHub Actions
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/'). 
 def home():
     return "DevOps CI/CD Pipeline Working!"
 
